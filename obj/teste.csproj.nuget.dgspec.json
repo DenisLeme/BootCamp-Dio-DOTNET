@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ProOcupacional\\.vscode\\extensions\\ms-dotnettools.vscode-dotnet-pack-1.0.12\\misc\\teste\\teste.csproj": {}
+    "C:\\Users\\Denis Leme\\OneDrive\\Área de Trabalho\\Programação\\DOTNET\\BootCamp-Dio-DOTNET\\teste.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ProOcupacional\\.vscode\\extensions\\ms-dotnettools.vscode-dotnet-pack-1.0.12\\misc\\teste\\teste.csproj": {
+    "C:\\Users\\Denis Leme\\OneDrive\\Área de Trabalho\\Programação\\DOTNET\\BootCamp-Dio-DOTNET\\teste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ProOcupacional\\.vscode\\extensions\\ms-dotnettools.vscode-dotnet-pack-1.0.12\\misc\\teste\\teste.csproj",
+        "projectUniqueName": "C:\\Users\\Denis Leme\\OneDrive\\Área de Trabalho\\Programação\\DOTNET\\BootCamp-Dio-DOTNET\\teste.csproj",
         "projectName": "teste",
-        "projectPath": "C:\\Users\\ProOcupacional\\.vscode\\extensions\\ms-dotnettools.vscode-dotnet-pack-1.0.12\\misc\\teste\\teste.csproj",
-        "packagesPath": "C:\\Users\\ProOcupacional\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ProOcupacional\\.vscode\\extensions\\ms-dotnettools.vscode-dotnet-pack-1.0.12\\misc\\teste\\obj\\",
+        "projectPath": "C:\\Users\\Denis Leme\\OneDrive\\Área de Trabalho\\Programação\\DOTNET\\BootCamp-Dio-DOTNET\\teste.csproj",
+        "packagesPath": "C:\\Users\\Denis Leme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Denis Leme\\OneDrive\\Área de Trabalho\\Programação\\DOTNET\\BootCamp-Dio-DOTNET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ProOcupacional\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Denis Leme\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\ProOcupacional\\AppData\\Roaming\\.dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Denis Leme\\AppData\\Roaming\\.dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
