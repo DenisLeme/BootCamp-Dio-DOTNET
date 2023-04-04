@@ -1,13 +1,40 @@
 ﻿ using teste.Models;
 
+
+// int a = 5;
+// double b = a;
+// cast implicito
+int a = int.MaxValue;
+long b = a;
+
+ Console.WriteLine(b);
+
+
+// int inteiro = 5;
+// string a = inteiro.ToString(); conversao do inteiro para string
+
+
+// Console.WriteLine(a);
+
+
+
+
+
 //Cast - Casting (Conversão de variavel para string/inteiro)
 
 //Convert consegue tratar valores nulos enquanto o Parse não aceita null.
 
-//int a = Convert.ToInt32("5");
- int a = int.Parse("5"); //converte o 5 em string para inteiro
 
-Console.WriteLine(a);
+//int a = Convert.ToInt32("5");
+//int a = int.Parse("5"); //converte o 5 em string para inteiro ou o 5 int para string
+
+//Console.WriteLine(a);
+ 
+ 
+ 
+
+ 
+ 
  // Sinal= é o Operator de atribuição , quando você alterar o valor da sua variavel ou atribuir algo
 
 // int a = 10;
