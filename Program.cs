@@ -1,13 +1,48 @@
 ﻿ using teste.Models;
 
+int quantidadeEmEstoque = 10;
+
+int quantidadeCompra = 4;
+bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
+Console.WriteLine($"Quantidade em Estoque:{quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade compra:{quantidadeCompra}");
+Console.WriteLine($"É Possível realizar a venda?{quantidadeEmEstoque >= quantidadeCompra}");
+
+if(possivelVenda)
+{
+    Console.WriteLine("Venda Realizada.");
+}
+else{
+    Console.WriteLine("Sem Saldo em estoque.");
+}
+
+
+
+// Conversão da maneira mais segura
+// string a = "15-";
+
+// int b = 0;
+
+// int.TryParse(a, out b);  <-- a para sair b 
+
+// Console.WriteLine(b);
+// Console.WriteLine("Conversão Realizada com Sucesso!!!");
+
+
+
+// double a = 4/ (2 +2);
+// Console.WriteLine(a);
+
 
 // int a = 5;
 // double b = a;
-// cast implicito
-int a = int.MaxValue;
-long b = a;
 
- Console.WriteLine(b);
+
+// cast implicito faz a conversão automatica
+// int a = int.MaxValue;
+// long b = a;
+
+//  Console.WriteLine(b);
 
 
 // int inteiro = 5;
