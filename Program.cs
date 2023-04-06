@@ -1,20 +1,74 @@
 ﻿ using teste.Models;
 
-int quantidadeEmEstoque = 10;
+Console.WriteLine("Digite uma letra");
+string letra = Console.ReadLine(); //ReadLine permite que o terminal espere o comando que você digite.
 
-int quantidadeCompra = 4;
-bool possivelVenda = quantidadeEmEstoque >= quantidadeCompra;
-Console.WriteLine($"Quantidade em Estoque:{quantidadeEmEstoque}");
-Console.WriteLine($"Quantidade compra:{quantidadeCompra}");
-Console.WriteLine($"É Possível realizar a venda?{quantidadeEmEstoque >= quantidadeCompra}");
+switch(letra){
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+    Console.WriteLine("Vogal");
+    break;
 
-if(possivelVenda)
-{
-    Console.WriteLine("Venda Realizada.");
+    default:
+    Console.WriteLine("Não é uma vogal");
+    break;
 }
-else{
-    Console.WriteLine("Sem Saldo em estoque.");
-}
+
+
+
+
+// melhorando o código abaixo
+// if (letra == "a " ||
+//     letra == "e " ||
+//     letra == "i " ||
+//     letra == "o " ||
+//     letra == "u ")
+//     {
+//         Console.WriteLine("Vogal");
+//     }else{
+//         Console.WriteLine("Não é vogal");
+//     }
+
+// if (letra == "a"){
+//     Console.WriteLine("Vogal");
+
+// }else if(letra == "e"){
+//     Console.WriteLine("Vogal");
+// }else if (letra == "i"){
+//     Console.WriteLine("Vogal");
+// }else if(letra == "o"){
+//     Console.WriteLine("Vogal");
+// }else if (letra == "u"){
+//     Console.WriteLine("Vogal");
+// }else{
+//     Console.WriteLine("Não é uma vogal");
+// }
+
+
+
+
+// int quantidadeEmEstoque = 10;
+
+// int quantidadeCompra = 0;
+// bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra; // && = e 
+// Console.WriteLine($"Quantidade em Estoque: {quantidadeEmEstoque}");
+// Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+// Console.WriteLine($"É Possível realizar a venda? {possivelVenda}");
+
+// if(quantidadeCompra == 0){ // == é comparação 
+//     Console.WriteLine("Venda Inválida!!");
+// }
+
+// else if(possivelVenda)
+// {
+//     Console.WriteLine("Venda Realizada.");
+// }
+// else{
+//     Console.WriteLine("Sem Saldo em estoque.");
+// }
 
 
 
