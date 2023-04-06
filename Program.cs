@@ -1,21 +1,51 @@
 ﻿ using teste.Models;
 
-Console.WriteLine("Digite uma letra");
-string letra = Console.ReadLine(); //ReadLine permite que o terminal espere o comando que você digite.
+//Operador AND (&&) você só vai ter cenario positivo caso todas as condições forem verdadeiras , se uma for falsa todas suas condições irão falhar
 
-switch(letra){
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-    Console.WriteLine("Vogal");
-    break;
+bool possuiPresencaMin = false;
+double media = 6.5;
 
-    default:
-    Console.WriteLine("Não é uma vogal");
-    break;
+if(possuiPresencaMin && media >= 7){
+    Console.WriteLine("Aprovado");
+}else{
+    Console.WriteLine("Reprovado!!");
 }
+
+
+
+//Operador OR na pratica
+// Operador OR (Pipe, || ) ou
+
+// bool eMaiorDeIdade = false;
+
+// bool possuiAutorizacao = true;
+
+// if(eMaiorDeIdade || possuiAutorizacao)
+// {
+//     Console.WriteLine("Entrada Liberada!");
+// }
+// else{
+//     Console.WriteLine("Entrada não liberada");
+// }
+
+
+
+// Console.WriteLine("Digite uma letra");
+// string letra = Console.ReadLine(); //ReadLine permite que o terminal espere o comando que você digite.
+
+// switch(letra){
+//     case "a":
+//     case "e":
+//     case "i":
+//     case "o":
+//     case "u":
+//     Console.WriteLine("Vogal");
+//     break;
+
+//     default:
+//     Console.WriteLine("Não é uma vogal");
+//     break;
+// }
 
 
 
