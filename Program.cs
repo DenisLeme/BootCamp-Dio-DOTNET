@@ -1,15 +1,52 @@
 ﻿ using teste.Models;
 
+Calculadora calc = new Calculadora();
+
+calc.Somar(20, 55);
+calc.Subtrair(10,50);
+calc.Multiplicar(15, 45);
+calc.Dividir(2,2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // ! está sempre negando a variavel se estiver na frente, tudo que tive no () é prioridade , = ATRIBUIÇÃO , não podemos passar uma string para inteiro sem antes passar pelo processo de conversão que seria o CONVERT OU PARSE
+// bool choveu = false;
+
+// bool estaTarde = true;
+
+// if(!choveu && !estaTarde){
+//     Console.WriteLine("Vou pedalar");
+// }
+// else{
+//     Console.WriteLine("Vou pedalar outro dia");
+// }
+
+
+
+
 //Operador AND (&&) você só vai ter cenario positivo caso todas as condições forem verdadeiras , se uma for falsa todas suas condições irão falhar
 
-bool possuiPresencaMin = false;
-double media = 6.5;
+// bool possuiPresencaMin = false;
+// double media = 6.5;
 
-if(possuiPresencaMin && media >= 7){
-    Console.WriteLine("Aprovado");
-}else{
-    Console.WriteLine("Reprovado!!");
-}
+// if(possuiPresencaMin && media >= 7){
+//     Console.WriteLine("Aprovado");
+// }else{
+//     Console.WriteLine("Reprovado!!");
+// }
 
 
 
