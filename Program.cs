@@ -1,16 +1,23 @@
-﻿ using teste.Models;
+﻿//  
 
-Calculadora calc = new Calculadora();
+// Calculadora calc = new Calculadora();
 
-calc.Somar(20, 55);
-calc.Subtrair(10,50);
-calc.Multiplicar(15, 45);
-calc.Dividir(2,2);
+// calc.Somar(20, 55);
+// calc.Subtrair(10,50);
+// calc.Multiplicar(15, 45);
+// calc.Dividir(2,2);
+
+using teste.Models;
 
 
+int numero = 5;
 
 
+for(int contador = 0; contador <= 10; contador++)
+{
+Console.WriteLine($"{numero} x {contador} = {numero * contador }");
 
+}
 
 
 
