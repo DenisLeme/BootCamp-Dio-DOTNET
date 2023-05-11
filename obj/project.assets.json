@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ProOcupacional\\.nuget\\packages\\": {}
+    "C:\\Users\\Denis Leme\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ProOcupacional\\Desktop\\programação\\BootCamp.Net\\BootCamp-Dio-DOTNET\\teste.csproj",
+      "projectUniqueName": "C:\\Users\\Denis Leme\\OneDrive\\Área de Trabalho\\Programação\\DOTNET\\BootCamp-Dio-DOTNET\\teste.csproj",
       "projectName": "teste",
-      "projectPath": "C:\\Users\\ProOcupacional\\Desktop\\programação\\BootCamp.Net\\BootCamp-Dio-DOTNET\\teste.csproj",
-      "packagesPath": "C:\\Users\\ProOcupacional\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ProOcupacional\\Desktop\\programação\\BootCamp.Net\\BootCamp-Dio-DOTNET\\obj\\",
+      "projectPath": "C:\\Users\\Denis Leme\\OneDrive\\Área de Trabalho\\Programação\\DOTNET\\BootCamp-Dio-DOTNET\\teste.csproj",
+      "packagesPath": "C:\\Users\\Denis Leme\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Denis Leme\\OneDrive\\Área de Trabalho\\Programação\\DOTNET\\BootCamp-Dio-DOTNET\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ProOcupacional\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Denis Leme\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

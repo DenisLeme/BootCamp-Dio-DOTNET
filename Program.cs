@@ -9,15 +9,64 @@
 
 using teste.Models;
 
+string opcao;
+// O Boolean ajudou na boa pratica do programa para que na hora que chamasse o caso 4 ele não encerasse o terminal
+// qual o while chega no case 4 e se repara com o false ele vai pro que está fora do loop por que é quebrado
+// se o While for falso direto ele não vai seguir a condição atribuida
+Boolean exibirMenu = true;
 
-int numero = 5;
+while(exibirMenu){
+    Console.Clear();
+    Console.WriteLine("Digite sua opção:");
+    Console.WriteLine("1- Cadastrar Cliente");
+    Console.WriteLine("2- Buscar Cliente");
+    Console.WriteLine("3- Apagar Cliente");
+    Console.WriteLine("4- Encerrar");
+
+    opcao = Console.ReadLine();
+
+    switch(opcao)
+    {
+        case "1":
+        Console.WriteLine("Cadastro de Cliente");
+        break;
 
 
-for(int contador = 0; contador <= 10; contador++)
-{
-Console.WriteLine($"{numero} x {contador} = {numero * contador }");
+        case "2":
+        Console.WriteLine("Busca de Cliente");
+        break;
+
+        case "3":
+        Console.WriteLine("Apagar Cliente");
+        break;
+
+        case "4":
+        Console.WriteLine("Encerrar");
+        exibirMenu = false;
+       //Environment serve para encerrar o programa na hora que apertar 4 
+       // Environment.Exit(0);        
+        break;
+
+// na hora que der uma opção diferente vai cair no default
+        default:
+        Console.WriteLine("Opção Invalida");
+        break;
+
+
+    }
 
 }
+Console.WriteLine("O Programa se encerrou");
+
+
+// int numero = 5;
+
+
+// for(int contador = 0; contador <= 10; contador++)
+// {
+// Console.WriteLine($"{numero} x {contador} = {numero * contador }");
+
+// }
 
 
 
